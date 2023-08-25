@@ -1,0 +1,19 @@
+{
+  "name": "send-email-be",
+  "version": "1.0.0",
+  "description": "Send email api",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Darrin Duncan",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "nodemailer": "^6.9.4",
+    "nodemon": "^3.0.1"
+  }
+}
