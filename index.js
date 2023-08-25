@@ -14,6 +14,10 @@ require('dotenv').config()
 app.use(bodyParser.json())
 app.use(cors())
 
+app.get('/', (req, res) => {
+    res.send("We're good to go Papee!")
+})
+
 // API endpoint for sending emails
 app.post('/api/send-email', async (req, res) => {
     try{
